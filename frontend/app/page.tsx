@@ -36,7 +36,7 @@ export default function Home() {
     <div>
       <h1>BlockChain sample app</h1>
       <button onClick={handleButtonClick}>Tokens owned</button>
-      <input type="text" value="{inputValue}" readOnly />
+      <input type="text" value={inputValue} readOnly />
     </div>
   )
 }
